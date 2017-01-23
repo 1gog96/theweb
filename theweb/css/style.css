@@ -1,0 +1,282 @@
+.clearfix::after,
+.services-icon::after,
+.tz::after,
+.tz-2::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body
+{
+	background-color: #272e43;
+	color: #fff;
+}
+strong
+{
+	color: #000;
+}
+
+
+
+#menu-checkbox
+{
+	display: none;
+}
+#menu-checkbox:checked ~ .nav {
+	background: #FFF;
+	background: rgba(0, 0, 0, 0.5);
+	display: block;
+
+}
+
+#menu-checkbox:checked ~ .nav .menu-btn {
+	background: #333;
+}
+
+.nav
+{
+	display: none;
+	background-color: transparent;
+	color: #fff;
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+		z-index: 1;
+}
+
+.menu-btn {
+	width: 60px;
+	height: 60px;
+	display: block;
+	background: url(..//img/burger-menu-theweb.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top: 5%;
+	left: 20%;
+	z-index: 2;
+}
+/*
+.menu-btn {
+	width: 60px;
+	height: 60px;
+	display: block;
+	background: url(..//img/burger-menu-theweb.png);
+}
+
+@media screen and  (max-width: 640px) {
+	menu {
+		display:none;
+	}
+	.menu-btn {
+		display: block;
+	}
+}
+*/
+
+
+
+.moon p
+{
+	color: #000;
+}
+.container 
+{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.menu
+{
+	text-align: center;
+}
+.button-menu
+{
+	padding-top: 40px;
+	width: 5%;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration:none;
+}
+.logo
+{
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+}
+.callback
+{
+	padding-left: 150px;
+	padding-top: 40px;
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+}
+.consultation
+{
+	padding-top: 40px;
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.menu1 img
+{
+	width: 506px;
+}
+
+.hello
+{
+	text-align: center;
+}
+.hello h3
+{
+	color: #f73358;
+	text-transform: uppercase;
+}
+.hello .write-us, .portfolio
+{
+	width: 181px;
+	height: 58px;
+	border: 3px solid white;
+}
+
+
+.team 
+{
+	text-align: center;
+	width: 100%;
+}
+
+.person
+{
+	width: 15%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2%;
+}
+
+.moon
+{
+	background: #E9DFC1;
+	background-image: url("../img/top-planet-theweb.jpg");
+	background-position: top;
+	background-size: 100%;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-bottom: 120px;
+}
+
+
+.services-icon-1
+{
+	padding-top: 250px;
+	padding-bottom: 50px;
+}
+.services-icon-1, .services-icon-2
+{
+	text-align: center;
+
+}
+.icon-offer
+{
+	width: 15%;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 0 2%;
+}
+
+
+.conditions
+{
+	background-color: #272e43;
+	background-image: url("../img/crackmoon.png");
+	background-position: top;
+	background-size: 100%;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-bottom: 120px;
+
+}
+
+.tz
+{
+	float: left;
+	width: 100%;
+	padding-left: 10%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.tz strong ,.tz-2 strong
+{
+
+	opacity: 0.31;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 98px;
+	font-weight: 700;
+	vertical-align: middle;
+	
+}
+
+
+.line
+{
+	width: 4px;
+	height: 83px;
+	background-color: #e9dfc1;
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.textktz
+{
+	color: #f1f1f1;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15px;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.tz-2 h5 ,.tz h5
+{
+	display: block;
+	margin: 0;
+	color: #e9dfc1;
+	font-family: "Open Sans";
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 18px;
+	padding-left: 80px;
+
+}
+.tz img
+{
+	display: inline-block;
+	margin-left: 30px;
+	width: 150px;
+	vertical-align: middle;
+}
+
+.tz-2 img
+{
+	display: inline-block;
+	margin-right: 30px;
+	width: 150px;
+	vertical-align: middle;
+}
+.tz-2
+{
+	float: right;
+
+}
